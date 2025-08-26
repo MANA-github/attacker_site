@@ -1,0 +1,7 @@
+/* small: 列幅の最適化 */
+@media (min-width:720px){
+  .file-table{table-layout:fixed}
+  .file-table colgroup col:nth-child(1){width:32%}
+  .file-table colgroup col:nth-child(2){width:auto}
+  .file-table colgroup col:nth-child(3){width:140px}
+}

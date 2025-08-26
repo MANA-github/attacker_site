@@ -1,0 +1,15 @@
+/* very small: 縦積み表示 */
+@media (max-width:580px){
+  .file-table thead{display:none}
+  .file-table, .file-table tbody, .file-table tr, .file-table td{display:block;width:100%}
+  .file-table tr{border-bottom:1px solid var(--bd)}
+  .file-table td{border:none;padding:10px 14px}
+  .file-table td::before{
+    content:attr(data-label);
+    display:block;
+    color:var(--sub);
+    font-size:.85em;
+    margin-bottom:4px;
+  }
+  .file-table td:nth-child(3){text-align:left}
+}
