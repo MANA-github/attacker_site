@@ -1,6 +1,6 @@
 (async () => {
-  const DATA_URL = "http://localhost:80/data";
-  const DOWNLOAD_URL_BASE = "http://localhost:80/downloads?file=";
+  const DATA_URL = "http://192.168.10.101:80/data";
+  const DOWNLOAD_URL_BASE = "http://192.168.10.101/downloads?file=";
 
   function formatBytes(bytes) {
     if (bytes === 0 || bytes == null) return "0 B";
